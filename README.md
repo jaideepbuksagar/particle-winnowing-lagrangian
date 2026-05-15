@@ -59,7 +59,7 @@ Error measured at a fixed intermediate time $t^*$ to isolate integration error f
 
 Bisection on $u_0 \in [0, 20]$ cm/s, tolerance $10^{-6}$ m/s:
 
-$$u_{0,\min} = \text{[value to 3 s.f.]} \text{ cm/s}$$
+$$u_{0,\min} = \text{9.67} \text{ cm/s}$$
 
 **Task 4 — Non-zero initial velocities**
 
@@ -78,7 +78,8 @@ particle-winnowing-lagrangian/
 │   ├── trajectories_euler.png
 │   ├── trajectories_rk4.png
 │   ├── convergence_study.png
-│   └── bisection_convergence.png
+|   ├── bisection_convergence.png
+│   └── task4_trajectories.png
 ├── report/
 │   └── winnowing_report.pdf  # Full write-up with analysis
 ├── .gitignore

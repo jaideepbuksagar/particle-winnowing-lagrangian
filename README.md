@@ -3,7 +3,7 @@
 Numerical simulation of the winnowing grain-separation process using Lagrangian particle tracking.  
 Implements and benchmarks **Euler** and **4th-order Runge–Kutta (RK4)** solvers for a coupled ODE system governing particle motion in a spatially varying planar air jet.
 
-> Submitted as an advanced optional exercise for *Simulations of Mechanical Processes*, OVGU Magdeburg (SoSe 2025).
+> Submitted as an advanced optional exercise for *Simulations of Mechanical Processes*, OVGU Magdeburg (SoSe 2026).
 
 ---
 
@@ -21,7 +21,7 @@ $$u_f(x,y) = 6.2\, u_0 \sqrt{\frac{h}{x}} \exp\!\left(-50\,\frac{y^2}{x^2}\right
 
 **Drag** (Schiller–Naumann):
 
-$$C_D = \begin{cases} \dfrac{24}{Re_p}\!\left(1 + 0.15\,Re_p^{0.687}\right) & Re_p < 800 \\ 0.44 & \text{otherwise} \end{cases}$$
+$$C_D = \begin{cases} \dfrac{24}{Re_p}\left(1 + 0.15\,Re_p^{0.687}\right) & Re_p < 800 \\ 0.44 & \text{otherwise} \end{cases}$$
 
 **Separation criterion:** heavy grains land left of $(x_c, y_c)$ → Bin 1; light chaffs land right → Bin 2.
 
